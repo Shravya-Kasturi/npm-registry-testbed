@@ -30,6 +30,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+          persist-credentials: false
       - run: npm ci
       - run: npx semantic-release
         env:
