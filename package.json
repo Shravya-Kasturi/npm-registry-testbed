@@ -17,9 +17,9 @@
       "feature/**"
     ],
     "debug": true,
-    "repositoryUrl": "git://github.com/shravyakasturi/npm-registry-testbed.git"
+    "repositoryUrl": "git://github.com/Shravya-Kasturi/npm-registry-testbed.git"
   },
-  "repository": "git://github.com/shravyakasturi/npm-registry-testbed.git",
+  "repository": "git://github.com/Shravya-Kasturi/npm-registry-testbed.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
