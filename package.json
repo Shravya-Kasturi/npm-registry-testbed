@@ -16,7 +16,8 @@
       "next",
       "feature/**"
     ],
-    "debug": true
+    "debug": true,
+    "repositoryUrl": "git://github.com/shravyakasturi/npm-registry-testbed.git"
   },
   "repository": "git://github.com/shravyakasturi/npm-registry-testbed.git",
   "author": "",
