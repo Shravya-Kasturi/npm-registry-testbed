@@ -1,5 +1,5 @@
 {
-  "name": "@aravindmetku/npm-registry-testbed",
+  "name": "@shravyakasturi/npm-registry-testbed",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -7,14 +7,18 @@
     "test": "exit 0"
   },
   "publishConfig": {
-    "@aravindmetku:registry": "https://npm.pkg.github.com"
+    "@shravyakasturi:registry": "https://npm.pkg.github.com"
   },
   "release": {
     "getLastRelease": "last-release-git",
-    "branches": ["master", "next", "feature/**"],
+    "branches": [
+      "master",
+      "next",
+      "feature/**"
+    ],
     "debug": true
   },
-  "repository": "git://github.com/aravindmetku/npm-registry-testbed.git",
+  "repository": "git://github.com/shravyakasturi/npm-registry-testbed.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
