@@ -1,10 +1,11 @@
 {
   "name": "@shravyakasturi/npm-registry-testbed",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "semantic-release": "semantic-release"
   },
   "publishConfig": {
     "@shravyakasturi:registry": "https://npm.pkg.github.com"
@@ -26,6 +27,7 @@
     "semantic-release": "^17.4.4"
   },
   "devDependencies": {
-    "last-release-git": "0.0.3"
+    "last-release-git": "0.0.3",
+    "semantic-release": "^17.4.4"
   }
 }
