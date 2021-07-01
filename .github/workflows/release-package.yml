@@ -33,7 +33,7 @@ jobs:
       - run: npm ci
       - run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ secrets.PAT }}
           NPM_TOKEN: '00000000-0000-0000-0000-000000000000'
       # - run: npm publish
       #   env:
