@@ -2,8 +2,8 @@ name: Node.js Package
 
 on:
   push:
-      branches:
-        - feature/**
+    branches:
+      - feature/**
   # release:
   #   types: [created]
 
@@ -16,7 +16,16 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm test
+
+      - name: Test
+        run: npm run test
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Prettier Check
+        run: npx prettier --check
+
 
   publish-gpr:
     needs: build
@@ -34,7 +43,7 @@ jobs:
       - run: npm ci
       - run: npx semantic-release
         env:
-          GH_TOKEN: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: '00000000-0000-0000-0000-000000000000'
       # - run: npm publish
       #   env:

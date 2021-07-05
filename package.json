@@ -27,7 +27,12 @@
     "semantic-release": "^17.4.4"
   },
   "devDependencies": {
+    "eslint": "^7.29.0",
     "last-release-git": "0.0.3",
-    "semantic-release": "^17.4.4"
+    "prettier": "2.3.2",
+    "semantic-release": "^17.4.4",
+    "typescript": "^3.9.7",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.3"
   }
 }
