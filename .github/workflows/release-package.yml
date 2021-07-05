@@ -20,8 +20,8 @@ jobs:
       - name: Test
         run: npm run test
 
-      - name: Lint
-        run: npm run lint
+      # - name: Lint
+      #   run: npm run lint
 
       - name: Prettier Check
         run: npx prettier --check
