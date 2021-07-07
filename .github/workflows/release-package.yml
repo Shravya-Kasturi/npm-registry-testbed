@@ -26,7 +26,6 @@ jobs:
       - name: Prettier Check
         run: npx prettier --check
 
-
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
