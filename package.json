@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc && rollup -c rollup.config.js",
-    "test": "exit 0",
+    "test": "jest",
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
@@ -30,7 +30,9 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/jest": "^26.0.24",
     "eslint": "^7.29.0",
+    "jest": "^27.0.6",
     "last-release-git": "0.0.3",
     "prettier": "2.3.2",
     "rimraf": "^3.0.2",
@@ -38,6 +40,7 @@
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.3",
     "semantic-release": "^17.4.4",
+    "ts-jest": "^27.0.3",
     "typescript": "^3.9.10"
   }
 }

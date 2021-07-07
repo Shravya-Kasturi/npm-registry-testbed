@@ -1,6 +1,6 @@
-function run() {
+function add(x:number, y: number) : number{
   console.log('this is new npm package working');
-  return 'Working';
+  return x + y;
 }
 
-export { run };
+export { add };

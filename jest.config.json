@@ -1,0 +1,16 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testRegex": ".spec.ts$",
+    "coverageReporters": ["text", "html"],
+    "collectCoverageFrom": ["<rootDir>/src/**/*.{ts, spec.ts}"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "function": 100,
+        "line": 100,
+        "statement": 100
+      }
+    },
+    "modulePathIgnorePatterns": ["<rootDir>/dist", "<rootDir>/src/index.ts"]
+  }
